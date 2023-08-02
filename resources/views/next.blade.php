@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <div class="container mt-4">
+    <div class="container text-center mt-4">
         <img src="{{ $url_image }}" alt="">
+        <a class="btn btn-primary mt-2" href="{{ url('/') }}">Home</a>
     </div>
 </body>
 
