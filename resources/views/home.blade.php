@@ -16,7 +16,7 @@
             <p>
                 Welcome in this wonderful place!
             </p>
-            <a class="btn btn-primary mb-4" href="">Vai alla pagina successiva</a>
+            <a class="btn btn-primary mb-4" href=" {{ url('next') }}">Vai alla pagina successiva</a>
             <p>
                 Developed by {{$dev_name}}
             </p>
