@@ -10,7 +10,9 @@
 </head>
 
 <body>
-
+    <div class="container mt-4">
+        <img src="{{ $url_image }}" alt="">
+    </div>
 </body>
 
 </html>
