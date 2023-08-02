@@ -12,12 +12,15 @@
 <body>
     <div class="container my-4">
         <h1 class="text-success text-center py-4">HELLO WORLD!!</h1>
-        <p>
-            Welcome in this wonderful place!
-        </p>
-        <p>
-            Developed by {{$dev_name}}
-        </p>
+        <div class="text-center">
+            <p>
+                Welcome in this wonderful place!
+            </p>
+            <a class="btn btn-primary mb-4" href="">Vai alla pagina successiva</a>
+            <p>
+                Developed by {{$dev_name}}
+            </p>
+        </div>
     </div>
 </body>
 
